@@ -11,24 +11,28 @@ const Shop = () => {
 
    const handleFilter = e => {
      const filterValue = e.target.value;
-     if(filterValue === 'sofa') {
-      const filteredProducts = products.filter((item) => item.category === 'sofa')
+     if(filterValue === 'cookwares') {
+      const filteredProducts = products.filter((item) => item.category === 'cookwares')
       setProductsData(filteredProducts)
      }
-     if(filterValue === 'mobile') {
-      const filteredProducts = products.filter((item) => item.category === 'mobile')
+     if(filterValue === 'containers') {
+      const filteredProducts = products.filter((item) => item.category === 'containers')
       setProductsData(filteredProducts)
      }
-     if(filterValue === 'chair') {
-      const filteredProducts = products.filter((item) => item.category === 'chair')
+     if(filterValue === 'dishes') {
+      const filteredProducts = products.filter((item) => item.category === 'dishes')
       setProductsData(filteredProducts)
      }
-     if(filterValue === 'watch') {
-      const filteredProducts = products.filter((item) => item.category === 'watch')
+     if(filterValue === 'spoons') {
+      const filteredProducts = products.filter((item) => item.category === 'spoons')
       setProductsData(filteredProducts)
      }
-     if(filterValue === 'wireless') {
-      const filteredProducts = products.filter((item) => item.category === 'wireless')
+     if(filterValue === 'organizers') {
+      const filteredProducts = products.filter((item) => item.category === 'organizers')
+      setProductsData(filteredProducts)
+     }
+     if(filterValue === 'gadgets') {
+      const filteredProducts = products.filter((item) => item.category === 'gadgets')
       setProductsData(filteredProducts)
      }
    }
@@ -49,11 +53,12 @@ const Shop = () => {
             <div className="filter__widget">
               <select onChange={handleFilter}>
                 <option>Filter By Category</option>
-                <option value="sofa">Sofa</option>
-                <option value="mobile">Mobile</option>
-                <option value="chair">Chair</option>
-                <option value="watch">Watch</option>
-                <option value="wireless">Wireless</option>
+                <option value="cookwares">Cookwares</option>
+                <option value="containers">Containers</option>
+                <option value="spoons">Spoons</option>
+                <option value="dishes">Dishes</option>
+                <option value="organizers">Organizers</option>
+                <option value="gadgets">Gadgets</option>
               </select>
             </div>
           </Col>

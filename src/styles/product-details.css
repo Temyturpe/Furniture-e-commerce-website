@@ -1,6 +1,15 @@
 .product__details{
     margin-top: 70px;
 }
+.product-detail-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-img-box{
+    padding: 0px 50px;
+    height: 400px;
+}
 .product__details h2{
     font-size: 1.6rem;
     margin-bottom: 10px;

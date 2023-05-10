@@ -11,11 +11,11 @@ const Footer = () => {
         <Col lg='4' md='6' className='mb-4'>
         <div className="logo">
             <div>
-              <h1 className='text-white'>Multimart</h1>
+              <h1 className='text-white'>ModernHome</h1>
             </div>
           </div>
           <p className="footer__text mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum qui mollitia quam animi eaque error consectetur magni reprehenderit aspernatur consequatur.
+          We are your number 1 stop for quality and affordable kitchen and home wares.
             </p>
         </Col>
         <Col lg='3' md='3' className='mb-4'>
@@ -23,16 +23,16 @@ const Footer = () => {
             <h4 className="quick__links-title">Top Categories</h4>
             <ListGroup className='mb-3'>
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='#'>Mobile Phones</Link>
+                <Link to='#'>Cookwares</Link>
               </ListGroupItem>
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='#'>Modern Sofa</Link>
+                <Link to='#'>Dishes and sppons</Link>
               </ListGroupItem>
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='#'>Arm Chair</Link>
+                <Link to='#'>Containers and Organizers</Link>
               </ListGroupItem>
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='#'>Smart Watches</Link>
+                <Link to='#'>Kitchen Gadgets</Link>
               </ListGroupItem>
             </ListGroup>
           </div>
