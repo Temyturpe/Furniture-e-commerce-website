@@ -47,7 +47,7 @@ const Home = () => {
             <div className="hero__content">
               <p className="hero__subtitle">Trending Kitchen wares in {year}</p>
               <h2>Beautify and organize your kitchen with mordern wares and gadgets</h2>
-              <p>We are your number 1 stop for quality and affordable kitchen and home wares.</p>
+              <p>We are your number 1 stop for quality and affordable kitchen wares and gadgets.</p>
 
               <motion.button whileTap={{scale:  1.2}} className="buy__btn">
                 <Link to='/shop'>SHOP NOW</Link>
